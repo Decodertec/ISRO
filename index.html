@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISRO Centers</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="App.js"></script>
+  </head>
+  <body class="dd-flex-center">
+    <header class="header-section">
+      <div class="project dd-flex-center dd-justify-space-between">
+        <img src="isro-logo.png" alt="ISRO Logo" class="logo img" />
+        <p>Indian Space Research Organisation</p>
+        <img
+          src="satymev.png"
+          alt="Satyamev Jayate"
+          class="satyamev-jayate img"
+        />
+      </div>
+      <nav>
+        <ul class="nav-items dd-flex-center dd-justify-space-between">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">About</li>
+          <li class="nav-item">Activities</li>
+          <li class="nav-item">Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="location-search">
+        <form class="form dd-flex-center">
+          <input
+            class="input"
+            id="search-input"
+            type="text"
+            placeholder="Search..."
+            name="search"
+          />
+          <button id="search-button" class="button" type="submit">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <button id="city" class="city button">City</button>
+          <button id="state" class="state button">State</button>
+          <button id="name" class="center button">Center</button>
+        </form>
+
+        <!-- table for showing data -->
+        <div id="user-cards" class="user-cards"></div>
+      </section>
+    </main>
+    <footer>
+      <section class="section-footer">
+        <div class="footer-links dd-flex-center dd-grid-4-cols">
+          <a href="#" class="logo logo-footer">
+            <img class="img" src="isro-logo.png" alt="ISRO Logo" />
+          </a>
+          <div class="links">
+            <h3 class="footer-heading">Main Links</h3>
+            <ul class="dd-footer-ul">
+              <li class="dd-footer-li">
+                <a class="dd-footer-items" href="">Who We Are</a>
+              </li>
+              <li class="dd-footer-li">
+                <a class="dd-footer-items" href="">New Order</a>
+              </li>
+              <li class="dd-footer-li">
+                <a class="dd-footer-items" href="#contact">Missions</a>
+              </li>
+              <li class="dd-footer-li">
+                <a class="dd-footer-items" href="">News & Blogs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3 class="footer-heading">Support</h3>
+            <ul class="dd-footer-ul">
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href="#about">About Us</a>
+              </li>
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href="#contact">Contact Us</a>
+              </li>
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href="">Privacy Policy</a>
+              </li>
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href="">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3 class="footer-heading">Follow Us</h3>
+            <ul class="dd-footer-ul">
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href="#"
+                  ><ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
+                  Twitter</a
+                >
+              </li>
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href=""
+                  ><ion-icon
+                    class="footer-icon"
+                    name="logo-facebook"
+                  ></ion-icon>
+                  Facebook</a
+                >
+              </li>
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href=""
+                  ><ion-icon
+                    class="footer-icon"
+                    name="logo-instagram"
+                  ></ion-icon>
+                  Instagram</a
+                >
+              </li>
+              <li class="dd-footer-li dd-flex-center">
+                <a class="dd-footer-items" href=""
+                  ><ion-icon class="footer-icon" name="logo-youtube"></ion-icon>
+                  Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

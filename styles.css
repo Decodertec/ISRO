@@ -1,0 +1,170 @@
+/* ----------------------Pre Styling ----------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: url("back.jpg") no-repeat center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+}
+.dd-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dd-justify-space-between {
+  justify-content: space-between;
+}
+
+.dd-bold {
+  font-weight: bold;
+}
+
+.dd-width-100 {
+  width: 100px;
+}
+.dd-width-250 {
+  width: 250px;
+}
+.dd-width-500 {
+  width: 500px;
+}
+
+.dd-grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/* ----------------------Header Section ----------------------- */
+.project {
+  min-width: 1100px;
+  height: 10rem;
+  background-color: rgb(47, 102, 150);
+  font-size: 5rem;
+  color: whitesmoke;
+}
+.project .img {
+  height: 6rem;
+  margin: 0 4rem;
+}
+.nav-items {
+  list-style: none;
+  font-size: 2rem;
+  background-color: #a4cae9;
+  height: 6rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 2rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.nav-item:hover,
+.nav-item:active {
+  color: rgb(121, 123, 125);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+/* ---------------------- Main Section ----------------------- */
+.main {
+  min-height: 100vh;
+}
+.location-search {
+  margin-top: 10rem;
+}
+.form .input {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  border: 0.2rem solid rgb(106, 105, 105);
+  width: 40rem;
+  background: #e2e0e0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  outline: none;
+}
+.form .button {
+  width: 10rem;
+  padding: 0.8rem;
+  background: #a4cae9;
+  color: #333;
+  font-size: 1.6rem;
+  border: 0.1rem solid rgb(106, 105, 105);
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.form .city,
+.form .state,
+.form .center {
+  margin-left: 1rem;
+  border: 0.1rem solid rgb(106, 105, 105);
+  border-radius: 0.5rem;
+}
+.form .button:hover,
+.form .button:active {
+  color: rgb(106, 105, 105);
+  background-color: #90b3d0;
+  transition: 0.4s ease-in-out;
+}
+
+.card {
+  min-height: 20px;
+  min-width: 110rem;
+  background-color: #a4cae9;
+  margin: 5px auto;
+  padding: 3px;
+  font-size: 20px;
+}
+.card-h {
+  background-color: #99b9cf;
+}
+
+/* <--------------------------footer section----------------------------> */
+
+.section-footer {
+  background-color: #485a67;
+}
+.footer-links {
+  display: grid;
+  max-width: 110rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+.logo-footer .img {
+  width: 70%;
+}
+.links {
+  width: 100%;
+}
+.links .footer-heading {
+  font-size: 3rem;
+  margin: 2rem auto;
+}
+
+.links .dd-footer-ul {
+  list-style: none;
+}
+.links .dd-footer-ul .dd-footer-li {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.links .dd-footer-ul .dd-footer-li .dd-footer-items {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+.links .dd-footer-ul .dd-footer-li .dd-footer-items .footer-icon {
+  font-weight: bold;
+}
+.links .dd-footer-ul .dd-footer-li .dd-footer-items:hover,
+.links .dd-footer-ul .dd-footer-li .dd-footer-items:active {
+  color: #90b3d0;
+}
